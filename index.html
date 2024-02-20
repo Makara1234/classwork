@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-box">
+            <div class="name">
+                <div class="first-name">
+                    <label for="">First Name</label>
+                    <input type="text" placeholder="first-name" name="first-name" id="first-name" required >
+                </div>
+                <div class="last-name">
+                    <label for="">Last Name</label>
+                    <input type="text" placeholder="last-name" name="last-name" id="last-name" required>
+                </div>
+            </div>
+            <div class="country">
+                <label for="">Country</label>
+                <select name="country" id="country">
+                    <option value="select" disabled selected>Select Your Option</option>
+                    <option value="Option1">Option1</option>
+                    <option value="Option2">Option2</option>
+                    <option value="Option3">Option3</option>
+                </select>
+            </div>
+            <div class="address">
+                <label for="">Address</label>
+                <textarea name="address" id="address" placeholder="Input your address"></textarea>
+            </div>
+            <div class="select-city">
+                <div class="city">
+                    <label for="">City</label>
+                    <select name="city" id="city">
+                        <option value="select" disabled selected>Select Your City</option>
+                        <option value="Phnom-Penh">Phnom Penh</option>
+                        <option value="La">Los angeles</option>
+                        <option value="Manchester">Manchester</option>
+                    </select>
+                </div>
+                <div class="code">
+                    <label for="">Patrol Code</label> <br>
+                    <input class="zip" type="number" min="0" step="2" max="100" placeholder="Zip code">
+                </div>
+            </div>
+            <div class="email">
+                <div class="em">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Email" name="email" id="mail" required><br>
+                </div>
+                <div class="phone">
+                    <label for="">Phone</label>
+                    <input type="tel" placeholder="+(855) 00 000 000"><br>
+                </div>
+            </div>
+            <div class="check-box">
+                <input type="checkbox" name="A" id="A" value="A" disabled checked >
+                <label for="A">Agree to terms and conditions</label>
+            </div>
+        </div>
+        <div class="right-box">
+            <div class="right-checkbox">
+                <label for="">Amount</label> <br> <br>
+                <input type="checkbox" name="l1" id="l1" value="l1"> <label for="">25$</label>
+                <input type="checkbox" name="l2" id="l2" value="l2"> <label for="">50$</label>
+                <input type="checkbox" name="l3" id="l3" value="l3"> <label for="">100$</label>
+                <input type="checkbox" name="l4" id="l4" value="l4"> <label for="">250$</label>
+                <input type="checkbox" name="l5" id="l5" value="l6"> <label for="">500$</label>
+                <input type="checkbox" name="l6" id="l6" value="l6"> <label for="">1000$</label>
+                <input type="checkbox" name="l7" id="l7" value="l7"> <label for="">2500$</label>
+            </div>
+            <div class="other-amount">
+                <label for="">Other Amount</label> <br>
+                <input class="zip1" type ="number" min="0" step="2" max="100" placeholder="Input Your Amount">
+            </div>
+            <div class="credit-card">
+                <label for="">Credit Card</label> <br>
+                <input class="zip2" type="number" min="0" step="2" max="100" placeholder="0000 0000 0000 0000">
+
+            </div>
+            <div class="visa-card">
+                <div class="card1">
+                    <img src="img card/img card/aba.png" alt="">
+                </div>
+                <div class="card2">
+                    <img src="img card/img card/ac.jpg" alt="">
+                </div>
+                <div class="card3">
+                    <img src="img card/img card/master.png" alt="">
+                </div>
+            </div>
+            <div class="date">
+                <div class="year">
+                    <label for="">Year</label>
+                    <input class="zip3" type="number" min="0" step="2" max="100" placeholder="Year">
+
+                </div>
+                <div class="mount">
+                    <label for="">Mount</label>
+                    <input class="zip4" type="month"><br>
+                </div>
+                <div class="cvv-code">
+                    <label for="">cvv-code</label>
+                    <input class="zip5" type="number" min="0" step="2" max="100" placeholder="CVV">
+
+                </div>
+            </div>
+           <div class="div">
+            <div class="check-box">
+                <input type="checkbox" name="A" id="A" value="A" disabled checked >
+                <label for="A">Agree to terms and conditions</label>
+            </div>
+            <button type="submit" class="btn-save">Save</button>
+           </div>
+        </div>
+        
+
+    </div>
+</body>
+
+</html>

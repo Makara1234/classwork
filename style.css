@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.left-box{
+    width: 590px;
+    height: 650px;
+}
+.name{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.first-name{
+    width: 290px;
+    height: 100px;
+}
+.last-name{
+    width: 290px;
+    height: 100px;
+   
+}
+.country{
+    width: 600px;
+    height: 100px;
+}
+.address{
+    width: 600px;
+    height: 180px;
+}
+.select-city{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.city{
+    width: 370px;
+    height: 100px;
+}
+.code{
+    width: 210px;
+    height: 100px;
+   
+}
+.zip{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.zip1{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.zip2{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.zip3{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.zip4{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.zip5{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.email{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.em{
+    width: 290px;
+    height: 100px;
+}
+.phone{
+    width: 290px;
+    height: 100px;
+}
+
+.right-box{
+    width: 570px;
+    height: 650px;
+}
+.right-checkbox{
+    width:600px;
+    height: 100px;
+}
+.other-amount{
+    width: 600px;
+    height: 100px;
+}
+.credit-card{
+    width: 600px;
+    height: 100px;
+}
+.visa-card{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.card1{
+    width:100px;
+    height: 60px;
+    margin-right: 20px;
+}
+.card2{
+    width:100px;
+    height: 60px;
+    margin-right: 20px;
+}
+.card3{
+    width:100px;
+    height: 60px;
+    margin-right: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.date{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.year{
+    width: 150px;
+    height: 100px;
+}
+.mount{
+    width: 150px;
+    height: 100px;
+}
+.cvv-code{
+    width: 270px;
+    height: 100px;
+}
+.check-box{
+    width: 290px;
+    height: 70px;
+}
+.btn-save{
+    width: 40%;
+    height: 30px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.div{
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+input[type=text]{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+input[type=email]{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+input[type=tel]{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+select{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+option{
+    color: black !important;   
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    resize:vertical;
+}
+input[type=checkbox]{
+    width: 20px!important;
+    height: 15px;
+    margin-top: 0;
+}
+.input[type=number]{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
